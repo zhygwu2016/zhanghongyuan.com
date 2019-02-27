@@ -16,9 +16,9 @@ const menu = [
     href: 'resume.html'
   },
   {
-    children: 'Publication',
+    children: 'Book',
     className: 'order-4-ns w-20',
-    href: 'publication.html'
+    href: 'book.html'
   },
   {
     children: 'Contact',
