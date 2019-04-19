@@ -1,0 +1,20 @@
+.PhotoNavItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.PhotoNavItem a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  align-items: center;
+}
+
+.PhotoNavItem a:hover,
+.PhotoNavItem a:active,
+.PhotoNavItem a.active {
+  color: #40A4C8;
+}

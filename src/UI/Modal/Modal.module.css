@@ -1,0 +1,40 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+
+  /* width: 100%; */
+  /* height: 90vh;   */
+  max-width: 80vw; 
+  /* max-height: 90vh;  */
+  /* top: 10vh; */
+  left: 50%;
+
+  transition: all 0.6s ease-out;
+}
+
+.Modal img{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Close{
+  background-color: rgba(0, 255, 255, 0.8);
+  cursor: pointer; 
+  color: white;
+  z-index: 900;
+  position: fixed;
+  top: 10vh; 
+  left: 0;
+  padding: 0 2vw;
+}
+
+.Close p{
+  font-size: 1vw;
+}
+
+.Close p:hover{
+  transform: scale(1.1);
+  transition: all 0.2s ease-out;
+}

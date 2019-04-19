@@ -74,3 +74,119 @@ body {
 .title{
   color:yellow;
 }
+
+/* ↓ ↓ ↓  For ratioType in attractions to control 
+  different ratio styles of images*/
+
+.Landscape{
+  top: 10vh;
+  width: 70%;
+  height: auto;  
+  max-height: 80%;
+  margin-left: -35vw;
+}
+
+.Portrait{
+  top: 5vh;
+  height: 90%;
+  margin-left: -17vw;
+}
+
+.Square{
+  top: 5vh;
+  height: 90%;
+  margin-left: -25vw;
+}
+
+/* 768px - 1024px */
+@media only screen
+  and (min-width:768px)
+  and (max-width:1024px){
+    .Landscape{
+      top: 10vh;
+    }
+    .Portrait{
+      margin-left: -25vw;
+    }
+    .Square{
+      top: 10vh;
+      width: 70%;
+      height: auto;
+      margin-left: -32vw;
+    }
+  }
+
+@media only screen
+  and (max-width:768px ){
+    .Landscape{
+      top: 10vh;
+      margin-left: -30vw;
+    }
+    .Portrait{
+      margin-left: -33vw;
+      height: 75%;
+    }
+    .Square{
+      top: 10vh;
+      width: 70%;
+      height: auto;
+      margin-left: -33vw;
+    }
+  }
+
+@media only screen
+  and (max-width:480px){
+    .Portrait{
+      height: 60%;
+      margin-left: -33vw;
+    }
+    .Square{
+      top: 10vh;
+      width: 67%;
+      height: auto;
+      margin-left: -32vw;
+    }
+  }
+
+@media only screen
+  and (max-width:480px)
+  and (orientation: portrait) {
+    .Landscape{
+      width: 90%;
+      top: 35vh;
+      margin-left: -40vw;
+    }
+    .Portrait{
+      top: 20vh;
+      height: 65%;
+      margin-left: -38vw;
+    }
+    .Square{
+      top: 25vh;
+      width: 90%;
+      height: auto;
+      margin-left: -39vw;
+    }
+  }
+
+@media only screen
+  and (min-width:768px)
+  and (max-width:1024px){
+    .Landscape{
+      width: 90%;
+      top: 30vh;
+      margin-left: -40vw;
+    }
+    .Portrait{
+      top: 10vh;
+      height: 80%;
+      margin-left: -35vw;
+    }
+    .Square{
+      top: 20vh;
+      width: 90%;
+      height: auto;
+      margin-left: -40vw;
+    }
+  }
+

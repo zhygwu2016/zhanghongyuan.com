@@ -1,0 +1,16 @@
+.PhotoNavItems {
+  margin: 40px 80px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 500px) {
+  .PhotoNavItems {
+    flex-flow: column;
+  }
+}

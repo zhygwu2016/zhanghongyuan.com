@@ -4,7 +4,8 @@ const attractions = [
     description:
       'Sept 22, 2016 in K St NW & 17th St NW, Washington D.C., RICOH GR II. I was wandering around the White House with my GR II after studying in the library. As darkness fell, lights were lit on the street.',
     image: 'image_1.jpg',
-    className: 'w-50-l'
+    className: 'w-50-l',
+    className2: '-38vw'
   },
   {
     title: 'Jianxiang Bridge at Night',
