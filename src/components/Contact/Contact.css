@@ -62,4 +62,7 @@
     .links-1 p, .links-2 p{
       font-size: 12px;
     }
+    .links-1 img, .links-2 img{
+      width:20px;
+    }
   }

@@ -3,9 +3,13 @@ import React from 'react';
 import './Contact.css';
 
 const contact = () => (
-  <div className="container flex flex-wrap justify-between w-80-ns m-auto-ns tc">
+  <div className="container flex flex-wrap justify-between w-80-ns m-auto-ns tc"
+    style={{
+      marginTop: 'auto',
+      marginBottom: 'auto'
+    }}>
     <div className="m-auto-ns">
-      <p className="f3-l f4-m f5 b mt3 mt0-ns">As seen in...</p>
+      <p className="f3-l f4-m f5 b mt4 mt0-ns">As seen in...</p>
       <div className="links-1">
         <a href="https://www.facebook.com/zhanghongyuan1993">
           <img src={require('../../images/icons/icon-facebook.png')} alt="Facebook"/>

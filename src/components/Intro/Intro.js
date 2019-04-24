@@ -3,7 +3,11 @@ import React from 'react';
 import Highlight from './Highlight/Highlight';
 
 const intro = () => (
-  <div className="m-auto-ns f4 f3-m f2-l tc w-80-l normal">
+  <div className="m-auto-ns f4 f3-m f2-l tc w-80-l w-80-m normal"
+    style={{
+      marginTop: 'auto',
+      marginBottom: 'auto'
+    }}>
     <div className="mb3 mb4-ns">
       Hey! I'm <Highlight type="aqua">Hongyuan Zhang</Highlight>, 
       a <Highlight type="blue">photographer</Highlight>, 

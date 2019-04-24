@@ -2,7 +2,7 @@ const menu = [
   {
     children: 'Hongyuan Zhang',
     logo: true,
-    className: 'order-3-ns w-100 w-30-ns mb3 mb0-ns',
+    className: 'order-3-ns w-100 w-30-ns mb3 mb0-ns ph4 ph0-ns',
     // href: 'index.html'
     href: '/'
   },

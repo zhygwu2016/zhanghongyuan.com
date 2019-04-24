@@ -17,7 +17,7 @@ const NavItem = ({className, href, children, logo}) => (
 );
 
 const NavItems = () => (
-  <nav className="pt3 pt4-ns mb4 mb0-ns">
+  <nav className="pt3 pt4-ns mb1 mb0-ns">
     <ul className="list flex flex-wrap flex-nowrap-ns justify-between items-center pa0 ma0">
       {menu.map(item => <NavItem {...item} key={item.children} />)}
     </ul>
