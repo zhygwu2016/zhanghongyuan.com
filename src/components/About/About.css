@@ -1,0 +1,22 @@
+.imageMargin {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.textAdjust a{
+  color: aqua;
+  text-decoration: none; 
+}
+
+.textAdjust a:hover,
+.textAdjust a:active{
+  text-decoration: underline; 
+}
+
+@media only screen
+  and (min-width:960px)
+  and (max-width:1150px){
+    .textAdjust{
+      font-size: 18px;
+    }
+  }

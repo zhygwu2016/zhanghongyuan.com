@@ -12,7 +12,7 @@ const intro = () => (
     </div>
     <div>
       From <Highlight type="blue">landscapes</Highlight> to{' '} 
-      <Highlight type="aqua">architecture</Highlight>,{' '}  
+      <Highlight type="yellow">architecture</Highlight>,{' '}  
       <Highlight type="pink">street</Highlight> snapshot to{' '}  
       <Highlight type="yellow">long-exposure</Highlight> cityscapes, 
       or even <Highlight type="blue">iPhone</Highlight>{' '} 

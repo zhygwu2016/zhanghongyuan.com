@@ -1,0 +1,31 @@
+.buy-links a{
+  color: white;
+  text-decoration: none;
+}
+
+.buy-links a:hover,
+.buy-links a:active{
+  color: aqua;
+  /* border-bottom: 2px solid aqua; */
+  transition: all 0.2s ease-out;
+}
+
+@media only screen
+  and (min-width:960px){
+    .buyLinksText h2{
+      font-size: 2vw;
+    }
+    .buyLinksText h3{
+      font-size: 2vw;
+    }
+    .buyLinksText h4{
+      font-size: 1.2vw;
+    }
+    .buyLinksText p{
+      font-size: 1.5vw;
+    }
+    .buyLinksText a{
+      font-size: 1.3vw;
+    }
+  }
+

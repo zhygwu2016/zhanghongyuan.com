@@ -1,0 +1,73 @@
+.links-1, .links-2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.links-2{
+  /* margin-bottom: 15vh; */
+}
+
+.links-1 img, .links-2 img{
+  width:25px;
+  margin-right: 1vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+
+.links-1 a{
+  text-decoration: none;
+  width:25%;
+  padding-bottom: 2vh;
+}
+
+.links-2 a{
+  text-decoration: none;
+  width:50%;
+  padding-bottom: 2vh;
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+
+
+.links-1 p{
+  display: inline-block;
+  /* vertical-align: middle; */
+  font-size: 1.5vw;
+  color:#fff;
+  transition: border 0.3s ease-in;
+  border-bottom: solid 2px rgba(0,0,0,0);
+  transition:transform 0.8s ease;
+}
+
+.links-2 p{
+  display: inline-block;
+  /* vertical-align: middle; */
+  font-size: 1.5vw;
+  color:#fff;
+  transition: border 0.3s ease-in;
+  border-bottom: solid 2px rgba(0,0,0,0);
+  transition:transform 0.8s ease;
+}
+
+.links-1 p:hover, .links-1 p:active, 
+.links-2 p:hover, .links-2 p:active{
+  border-bottom: solid 2px #fff;
+  transform: scale(1.05);
+}
+
+@media only screen
+  and (min-width:480px)
+  and (max-width:768px){
+    .links-1 a{
+      width:33.33%;
+    }
+  }
+
+@media only screen
+  and (max-width:480px){
+    .links-1 a{
+      width: 50%;
+    }
+  }
