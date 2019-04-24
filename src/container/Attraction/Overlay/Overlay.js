@@ -45,12 +45,12 @@ class Overlay extends Component {
         </Modal> 
 
         <div>
-          <h1 className="f5 f4-ns b mt0 mb2 regular black normal lh-title">{title}</h1>
+          <h1 className="f6 f4-ns b mt0 mb2 regular black normal lh-title">{title}</h1>
           <p className="lh-title lh-copy-ns mt0 mb1 mb2-ns black f7 f6-ns measure-l">{description}</p>
           <p className="lh-title lh-copy-ns mv0 mb1 black f7 f6-ns measure-l">{note}</p>
           <p className="lh-title lh-copy-ns mv0 black f7 f6-ns measure-l">{note2}</p>
           {/* <img src={require(`../../../images/${image}`)} alt="" className="db" /> */}
-          <div className="flex justify-between f7 f6-ns mt2 mr3">
+          <div className="flex justify-between f7 f6-ns mt0 mt2-ns mr3">
             <Button clicked={this.showFullSizeHandler}>FULL SIZE</Button>
             <Button clicked={this.props.closeInfo}>X</Button>
           </div>
