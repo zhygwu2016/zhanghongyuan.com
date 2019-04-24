@@ -59,4 +59,7 @@
     .links-1 a{
       width: 50%;
     }
+    .links-1 p, .links-2 p{
+      font-size: 12px;
+    }
   }
