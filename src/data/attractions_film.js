@@ -16,7 +16,7 @@ const attractions_film = [
     note: 'Leica M6, Voigtlander VM 35mm f/1.4 Nokton Classic',
     note2: 'Kodak Ektar 100',
     image: 'image_film_2.jpg',
-    className: 'w-50-l ml5-l mt4-l',
+    className: 'w-40-l ml5-l mt4-l',
     ratioType: 'Landscape'
   },
   {
@@ -86,7 +86,7 @@ const attractions_film = [
     note: 'Yashica Mat 124G',
     note2: 'Kodak Ektar 100',
     image: 'image_film_9.jpg',
-    className: 'w-40-l ml5-l mr6-l',
+    className: 'w-40-l ml5-l mr4-l',
     ratioType: 'Square'
   },
   {

@@ -5,11 +5,14 @@ import menu from '../../data/menu';
 
 import logoZHY from '../../images/logo-zhanghongyuan.png';
 
+import classes from './NavItem.module.css';
+
 const NavItem = ({className, href, children, logo}) => (
-  <li className={`mh2-ns f6 f4-l tc ${className}`}>
+  <li className={`mh2-ns f6 f4-l tc ${className} ${classes.NavItem}`}>
     <NavLink  
       className="white no-underline" 
       to={href}
+      activeClassName={classes.active}
     >
       {logo ? <img src={logoZHY} alt="logo-zhanghongyuan" /> : children}
     </NavLink>

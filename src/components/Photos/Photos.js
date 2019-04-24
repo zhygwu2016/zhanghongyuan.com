@@ -17,7 +17,7 @@ import Film from './PhotoComponents/Film/Film';
 const photos = () => {
   return (
     <Aux>
-      <div>
+      <div className="mb2-ns mb4">
         <PhotoNavItems />
         <Switch>
           <Route path="/photos/landscapes" component={Landscapes} />

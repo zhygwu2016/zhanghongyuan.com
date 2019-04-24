@@ -1,0 +1,5 @@
+.NavItem a:hover,
+.NavItem a:active,
+.NavItem a.active {
+  color: #40A4C8;
+}
