@@ -11,7 +11,7 @@ const book = () => (
       <div className="">
         <h2>《手机摄影手册1：拍出大片》</h2>
         <h3 className="f3 b">"Handbook of Mobile Photography: Make It Extraordinary"</h3>
-        <h4 className="f5">ISBN: 978730128573&nbsp;&nbsp;&nbsp;Peking University Press, Sept 2017</h4>
+        <h4 className="f5">Peking University Press, Sept 2017&nbsp;(ISBN: 978730128573)</h4>
         <p className="f4">Introduce basic photography knowledge, image processing skills,
           experience of composition and creative ideas for smartphones, like iPhone.</p>
       </div>

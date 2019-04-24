@@ -10,7 +10,7 @@ const about = () => (
       <img src={require('../../images/portrait-ZHY.jpg')} alt="portrait" />
     </div>
 
-    <div className="order-1-l w-60-l f4-l f5-m f6 mb5 mb0-ns pr4-l textAdjust">
+    <div className="order-1-l w-60-l f4-l f5-m f6 mb5 mb0-ns pr4-l textAdjust tc tl-ns">
       <p>
         Hey! I'm Hongyuan, a Seattle-based junior front-end developer.
         As an international student from China, I have
