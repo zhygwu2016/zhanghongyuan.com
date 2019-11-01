@@ -11,8 +11,8 @@ const intro = () => (
     <div className="mb3 mb4-ns">
       Hey! I'm <Highlight type="aqua">Hongyuan Zhang</Highlight>, 
       a <Highlight type="blue">photographer</Highlight>, 
-      and a <Highlight type="pink">front-end developer</Highlight>{' '} 
-      in <Highlight type="yellow">Seattle</Highlight>.
+      and a <Highlight type="pink">software developer</Highlight>{' '} 
+      in <Highlight type="yellow">Bay Area</Highlight>.
     </div>
     <div>
       From <Highlight type="blue">landscapes</Highlight> to{' '} 

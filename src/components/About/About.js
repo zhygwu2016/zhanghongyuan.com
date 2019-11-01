@@ -12,7 +12,7 @@ const about = () => (
 
     <div className="order-1-l w-60-l f4-l f5-m f6 mb5 mb0-ns pr4-l textAdjust tc tl-ns">
       <p>
-        Hey! I'm Hongyuan, a Seattle-based junior front-end developer.
+        Hey! I'm Hongyuan, a Bay-Area-based junior software developer.
         As an international student from China, I have
         obtained my Master's degree at The George Washington University in May 2018.       
       </p>
@@ -22,7 +22,7 @@ const about = () => (
         I have published a book about iPhone photography in China.
       </p>
       <p> 
-        I'm currently looking for a full-time developer role.
+        I'm currently looking for a full-time SDE role in Seattle.
         Please take a look at my <a href={resume} download="Resume-HongyuanZhang">resume</a> if you're interested.
       </p>
     </div>
