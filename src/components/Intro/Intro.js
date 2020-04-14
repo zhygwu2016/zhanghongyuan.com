@@ -9,7 +9,7 @@ const intro = () => (
       marginBottom: 'auto'
     }}>
     <div className="mb3 mb4-ns">
-      Hey! I'm <Highlight type="aqua">Nathan Zhang</Highlight>, 
+      Hey! I'm <Highlight type="aqua">Axel Zhang</Highlight>, 
       a <Highlight type="blue">photographer</Highlight>, 
       and a <Highlight type="pink">software developer</Highlight>{' '} 
       in <Highlight type="yellow">Bay Area</Highlight>.
