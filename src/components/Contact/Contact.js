@@ -51,13 +51,13 @@ const contact = () => (
         <div className="mt2 mt0-ns">
           <a href="mailto:zhygwu2016@gmail.com">
             <img src={require('../../images/icons/icon-email.png')} alt="email"/>
-            <p>nathanzh117@gmail.com</p>
+            <p>zhygwu2016@gmail.com</p>
           </a>
         </div>
         <div className="mt2 mt0-ns mb5 mb1-ns">
           <a href="tel:1-571-214-7685" className="test">
             <img src={require('../../images/icons/icon-tel.png')} alt="tel"/>
-            <p>Tel: 1-408-753-5987</p>
+            <p>Tel: 1-571-214-7685</p>
           </a>
         </div>
       </div>
